@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/1.jpg");
+  background-size: cover; /* ปรับขนาดภาพให้ครอบคลุมหน้าจอ */
+  background-position: center; /* ตั้งให้ภาพอยู่ตรงกลาง */
+  height: 100vh;
+  text-align: center;
+}
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.logo {
+  max-width: 250px;
+  margin-bottom: 40px;
+}
+.btn {
+  color: white;
+  background-color: blue;
+}
+
+
